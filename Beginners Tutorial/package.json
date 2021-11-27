@@ -1,0 +1,17 @@
+{
+  "name": "beginners-tutorial",
+  "version": "1.0.0",
+  "description": "NodeJs Full Tutorial for Beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "express",
+    "ejs"
+  ],
+  "author": "Paul I Ighofose",
+  "license": "ISC"
+}
