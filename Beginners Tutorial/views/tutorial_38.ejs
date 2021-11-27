@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>
+			Tutorial 36
+		</title>
+		<style>
+			body {
+				background-color: limegreen;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			You have requested the student name: <%= name %>
+		</h1>
+		<p>
+			id: <%= id %>
+		</p>
+		<h1>
+			Subjects
+		</h1>
+		<ul>
+			<% subjects.forEach(function(item) { %>
+				<li>
+					<%= item %>
+				</li>
+			<% }); %>
+		</ul>
+		<h1>
+			Full List
+		</h1>
+		<table>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Subjects</th>
+			</tr>
+			<% for(i=1; i <= Object.keys(allData).length; i++) { %>
+				<tr>
+					<td><%= i %></td>
+					<td><%= allData[i].name %></td>
+					<td>
+						<ul>
+							<% var item = allData[i].subjects; %>
+							<% item.forEach(function(sbj) { %>
+								<li>
+									<%= sbj %>
+								</li>
+							<% }); %>
+						</ul>
+					</td>
+				</tr>
+			<% } %>
+		</table>
+	</body>
+</html>
