@@ -50,7 +50,7 @@
 				</tr>
 				<% for(i=1; i <= Object.keys(allData).length; i++) { %>
 					<tr>
-						<td><a onclick="className='visited'; document.getElementById('jsDisplay').src='<%= allData[i].name %>.js'"><%= allData[i].name %></a></td>
+						<td><a onclick="className='visited'; document.getElementById('jsDisplay').src='<%= allData[i].name %>.js'; setTimeout(function() { var ifr = document.getElementById('jsDisplay'); var doc = (ifr.contentWindow	|| ifr.contentDocument); if (doc.document)doc = doc.document; doc.body.style.tabSize='2'; }, 50);"><%= allData[i].name %></a></td>
 						<td><%= allData[i].description %></td>
 					</tr>
 				<% } %>
