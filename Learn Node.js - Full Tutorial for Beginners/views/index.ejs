@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>
+			Learn Node.js - Full Tutorial for Beginners by Pedro Mercado
+		</title>
+		<style>
+			body {
+				background-color: skyblue;
+			}
+			th {
+				text-align: left;
+				padding-left: 5px;
+			}
+			td {
+				height: 100%;
+			}
+			a {
+				text-decoration: underline;
+				cursor: pointer;
+				color: blue;
+			}
+			.visited {
+				color: brown;
+			}
+			div {
+				display: flex;
+			}
+			table {
+				width: 55%;
+			}
+			iframe {
+				height: 800;
+				width: 45%;
+				background-color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Tutorial List
+		</h1>
+		<h3>
+			Watch Source Video: <a href="https://m.youtube.com/watch?v=RLtyhwFtXQA" target="_blank">https://m.youtube.com/watch?v=RLtyhwFtXQA</a>
+		</h3>
+		<div>
+			<table>
+				<tr>
+					<th>File Name</th>
+					<th>Description</th>
+				</tr>
+				<% for(i=0; i < Object.keys(allData).length; i++) { %>
+					<tr>
+						<td><a onclick="className='visited'; document.getElementById('jsDisplay').src='<%= allData[i].name %>.js'; setTimeout(function() { var ifr = document.getElementById('jsDisplay'); var doc = (ifr.contentWindow	|| ifr.contentDocument); if (doc.document)doc = doc.document; doc.body.style.tabSize='2'; }, 50);"><%= allData[i].name %></a></td>
+						<td><%= allData[i].description %></td>
+					</tr>
+				<% } %>
+			</table>
+			<iframe id="jsDisplay"></textarea>
+		</div>
+	</body>
+</html>
