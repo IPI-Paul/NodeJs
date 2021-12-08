@@ -1,0 +1,14 @@
+{
+	"1": {
+		"name": "Mark",
+		"subjects": ["c++", "Java", "C"]
+	},
+	"2": {
+		"name": "Tom",
+		"subjects": ["C#", "Python", "MySql"]
+	},
+	"3": {
+		"name": "John", 
+		"subjects": ["JavaScript", "Sqlite", "c"]
+	}
+}
