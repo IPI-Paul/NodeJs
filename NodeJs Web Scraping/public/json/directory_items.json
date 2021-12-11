@@ -1,0 +1,990 @@
+{
+  "directory_items": [
+    {
+      "id": 15462,
+      "likes_received": 48,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 15462,
+        "username": "camperbot",
+        "name": "Camperbot",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/camperbot/{size}/18364_2.png",
+        "title": "Great contributor",
+        "flair_name": null,
+        "admin": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 285941,
+      "likes_received": 48,
+      "likes_given": 25,
+      "topic_count": 1,
+      "post_count": 116,
+      "topics_entered": 222,
+      "posts_read": 793,
+      "days_visited": 7,
+      "user": {
+        "id": 285941,
+        "username": "jwilkins.oboe",
+        "name": "Jessica Wilkins",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/jwilkins.oboe/{size}/179497_2.png",
+        "title": "freeCodeCamp.org Staff",
+        "primary_group_name": "team",
+        "flair_name": "team",
+        "flair_url": "https://aws1.discourse-cdn.com/freecodecamp/original/3X/3/b/3b515098283215730b65c76a721de0ab9c894fc8.png",
+        "flair_bg_color": "0a0a23",
+        "flair_color": "ffffff",
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 75682,
+      "likes_received": 47,
+      "likes_given": 18,
+      "topic_count": 1,
+      "post_count": 85,
+      "topics_entered": 99,
+      "posts_read": 475,
+      "days_visited": 7,
+      "user": {
+        "id": 75682,
+        "username": "kevinSmith",
+        "name": "Kevin Smith",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/kevinsmith/{size}/72934_2.png",
+        "title": "passes a Turing test 58.3% of the time",
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 161050,
+      "likes_received": 47,
+      "likes_given": 31,
+      "topic_count": 0,
+      "post_count": 78,
+      "topics_entered": 264,
+      "posts_read": 720,
+      "days_visited": 7,
+      "user": {
+        "id": 161050,
+        "username": "JeremyLT",
+        "name": "Jeremy - he/him",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/jeremylt/{size}/151340_2.png",
+        "title": "Dungeon Master",
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 163951,
+      "likes_received": 32,
+      "likes_given": 3,
+      "topic_count": 0,
+      "post_count": 56,
+      "topics_entered": 68,
+      "posts_read": 343,
+      "days_visited": 5,
+      "user": {
+        "id": 163951,
+        "username": "lasjorg",
+        "name": "Lasse",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/lasjorg/{size}/128310_2.png",
+        "title": "Great contributor",
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 746,
+      "likes_received": 31,
+      "likes_given": 12,
+      "topic_count": 0,
+      "post_count": 68,
+      "topics_entered": 109,
+      "posts_read": 319,
+      "days_visited": 5,
+      "user": {
+        "id": 746,
+        "username": "ArielLeslie",
+        "name": "Ariel - she/her",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/arielleslie/{size}/151297_2.png",
+        "title": "(totally not a bot)",
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 228597,
+      "likes_received": 27,
+      "likes_given": 4,
+      "topic_count": 0,
+      "post_count": 51,
+      "topics_entered": 121,
+      "posts_read": 482,
+      "days_visited": 7,
+      "user": {
+        "id": 228597,
+        "username": "bbsmooth",
+        "name": "Bruce",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/bbsmooth/{size}/203556_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 3
+      }
+    },
+    {
+      "id": 208161,
+      "likes_received": 16,
+      "likes_given": 2,
+      "topic_count": 0,
+      "post_count": 17,
+      "topics_entered": 105,
+      "posts_read": 447,
+      "days_visited": 7,
+      "user": {
+        "id": 208161,
+        "username": "Sky020",
+        "name": "Shaun Hamilton",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/sky020/{size}/128093_2.png",
+        "title": "freeCodeCamp.org Staff",
+        "primary_group_name": "team",
+        "flair_name": "team",
+        "flair_url": "https://aws1.discourse-cdn.com/freecodecamp/original/3X/3/b/3b515098283215730b65c76a721de0ab9c894fc8.png",
+        "flair_bg_color": "0a0a23",
+        "flair_color": "ffffff",
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 320755,
+      "likes_received": 15,
+      "likes_given": 4,
+      "topic_count": 0,
+      "post_count": 15,
+      "topics_entered": 33,
+      "posts_read": 123,
+      "days_visited": 7,
+      "user": {
+        "id": 320755,
+        "username": "Jagaya",
+        "name": "",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/jagaya/{size}/202277_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 139189,
+      "likes_received": 12,
+      "likes_given": 21,
+      "topic_count": 0,
+      "post_count": 21,
+      "topics_entered": 49,
+      "posts_read": 133,
+      "days_visited": 7,
+      "user": {
+        "id": 139189,
+        "username": "snowmonkey",
+        "name": "Tobias Parent",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/snowmonkey/{size}/158648_2.png",
+        "title": null,
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 128909,
+      "likes_received": 10,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 19,
+      "topics_entered": 63,
+      "posts_read": 179,
+      "days_visited": 7,
+      "user": {
+        "id": 128909,
+        "username": "Roma",
+        "name": "Roma",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/roma/{size}/112899_2.png",
+        "title": "Leader",
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 229166,
+      "likes_received": 10,
+      "likes_given": 11,
+      "topic_count": 0,
+      "post_count": 31,
+      "topics_entered": 114,
+      "posts_read": 265,
+      "days_visited": 7,
+      "user": {
+        "id": 229166,
+        "username": "sanity",
+        "name": "or not",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/sanity/{size}/134623_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 372252,
+      "likes_received": 10,
+      "likes_given": 3,
+      "topic_count": 0,
+      "post_count": 29,
+      "topics_entered": 65,
+      "posts_read": 269,
+      "days_visited": 7,
+      "user": {
+        "id": 372252,
+        "username": "shugyoza",
+        "name": "Stephen",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/shugyoza/{size}/134310_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 106001,
+      "likes_received": 9,
+      "likes_given": 12,
+      "topic_count": 0,
+      "post_count": 6,
+      "topics_entered": 23,
+      "posts_read": 92,
+      "days_visited": 7,
+      "user": {
+        "id": 106001,
+        "username": "bradtaniguchi",
+        "name": "Brad",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/bradtaniguchi/{size}/110427_2.png",
+        "title": null,
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 2193,
+      "likes_received": 8,
+      "likes_given": 6,
+      "topic_count": 0,
+      "post_count": 13,
+      "topics_entered": 81,
+      "posts_read": 309,
+      "days_visited": 7,
+      "user": {
+        "id": 2193,
+        "username": "DanCouper",
+        "name": "Dan Couper",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/dancouper/{size}/158608_2.png",
+        "title": null,
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 170865,
+      "likes_received": 6,
+      "likes_given": 2,
+      "topic_count": 0,
+      "post_count": 5,
+      "topics_entered": 32,
+      "posts_read": 102,
+      "days_visited": 5,
+      "user": {
+        "id": 170865,
+        "username": "ilenia",
+        "name": "Ilenia",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/ilenia/{size}/208580_2.png",
+        "title": "freeCodeCamp.org Staff",
+        "primary_group_name": "team",
+        "flair_name": "team",
+        "flair_url": "https://aws1.discourse-cdn.com/freecodecamp/original/3X/3/b/3b515098283215730b65c76a721de0ab9c894fc8.png",
+        "flair_bg_color": "0a0a23",
+        "flair_color": "ffffff",
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 377232,
+      "likes_received": 6,
+      "likes_given": 1,
+      "topic_count": 0,
+      "post_count": 7,
+      "topics_entered": 25,
+      "posts_read": 98,
+      "days_visited": 2,
+      "user": {
+        "id": 377232,
+        "username": "Jimbalin",
+        "name": "",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/ce7236/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 247774,
+      "likes_received": 5,
+      "likes_given": 4,
+      "topic_count": 1,
+      "post_count": 9,
+      "topics_entered": 32,
+      "posts_read": 137,
+      "days_visited": 7,
+      "user": {
+        "id": 247774,
+        "username": "Sylvant",
+        "name": "",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/sylvant/{size}/136107_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 351527,
+      "likes_received": 5,
+      "likes_given": 6,
+      "topic_count": 1,
+      "post_count": 10,
+      "topics_entered": 15,
+      "posts_read": 98,
+      "days_visited": 3,
+      "user": {
+        "id": 351527,
+        "username": "santimir",
+        "name": "",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/s/ecae2f/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 377159,
+      "likes_received": 5,
+      "likes_given": 9,
+      "topic_count": 2,
+      "post_count": 10,
+      "topics_entered": 85,
+      "posts_read": 338,
+      "days_visited": 7,
+      "user": {
+        "id": 377159,
+        "username": "ChenBr",
+        "name": "Chen",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/chenbr/{size}/240700_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 377182,
+      "likes_received": 5,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 22,
+      "topics_entered": 126,
+      "posts_read": 414,
+      "days_visited": 6,
+      "user": {
+        "id": 377182,
+        "username": "saurabhv749",
+        "name": "Saurabh Verma",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/saurabhv749/{size}/240717_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 1028,
+      "likes_received": 4,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 1028,
+        "username": "MichaelLeeHobbs",
+        "name": "Michael Hobbs",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/michaelleehobbs/{size}/108231_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 160777,
+      "likes_received": 4,
+      "likes_given": 1,
+      "topic_count": 0,
+      "post_count": 1,
+      "topics_entered": 4,
+      "posts_read": 20,
+      "days_visited": 6,
+      "user": {
+        "id": 160777,
+        "username": "michaelnicol",
+        "name": "Michael L. Nicol",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/michaelnicol/{size}/224831_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 298471,
+      "likes_received": 4,
+      "likes_given": 8,
+      "topic_count": 2,
+      "post_count": 6,
+      "topics_entered": 5,
+      "posts_read": 38,
+      "days_visited": 5,
+      "user": {
+        "id": 298471,
+        "username": "Pioneer369",
+        "name": "Hesam",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/pioneer369/{size}/193369_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 330710,
+      "likes_received": 4,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 1,
+      "topics_entered": 1,
+      "posts_read": 3,
+      "days_visited": 2,
+      "user": {
+        "id": 330710,
+        "username": "ovi.muradyan",
+        "name": "Ovanes Muradyan",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/ovi.muradyan/{size}/208921_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 351399,
+      "likes_received": 4,
+      "likes_given": 2,
+      "topic_count": 5,
+      "post_count": 15,
+      "topics_entered": 6,
+      "posts_read": 21,
+      "days_visited": 6,
+      "user": {
+        "id": 351399,
+        "username": "kernix",
+        "name": "Jim Kernicky",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/kernix/{size}/223280_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 359184,
+      "likes_received": 4,
+      "likes_given": 5,
+      "topic_count": 0,
+      "post_count": 5,
+      "topics_entered": 44,
+      "posts_read": 253,
+      "days_visited": 7,
+      "user": {
+        "id": 359184,
+        "username": "lepros",
+        "name": "Andrew",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/lepros/{size}/228529_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 359771,
+      "likes_received": 4,
+      "likes_given": 9,
+      "topic_count": 2,
+      "post_count": 9,
+      "topics_entered": 31,
+      "posts_read": 123,
+      "days_visited": 5,
+      "user": {
+        "id": 359771,
+        "username": "ingwenya",
+        "name": "Frans",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/ingwenya/{size}/229100_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 6,
+      "likes_received": 3,
+      "likes_given": 1,
+      "topic_count": 0,
+      "post_count": 1,
+      "topics_entered": 1,
+      "posts_read": 5,
+      "days_visited": 2,
+      "user": {
+        "id": 6,
+        "username": "QuincyLarson",
+        "name": "Quincy Larson",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/quincylarson/{size}/212400_2.png",
+        "title": "freeCodeCamp.org Staff",
+        "primary_group_name": "team",
+        "flair_name": "team",
+        "flair_url": "https://aws1.discourse-cdn.com/freecodecamp/original/3X/3/b/3b515098283215730b65c76a721de0ab9c894fc8.png",
+        "flair_bg_color": "0a0a23",
+        "flair_color": "ffffff",
+        "admin": true,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 31176,
+      "likes_received": 3,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 31176,
+        "username": "somekoreanguy",
+        "name": "Jason",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/s/e68b1a/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 83305,
+      "likes_received": 3,
+      "likes_given": 1,
+      "topic_count": 0,
+      "post_count": 15,
+      "topics_entered": 65,
+      "posts_read": 363,
+      "days_visited": 7,
+      "user": {
+        "id": 83305,
+        "username": "colinthornton",
+        "name": "Colin Thornton",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/colinthornton/{size}/62129_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 85126,
+      "likes_received": 3,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 85126,
+        "username": "fahdi",
+        "name": "Fahad Murtaza",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/fahdi/{size}/162917_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 256452,
+      "likes_received": 3,
+      "likes_given": 16,
+      "topic_count": 0,
+      "post_count": 8,
+      "topics_entered": 31,
+      "posts_read": 98,
+      "days_visited": 6,
+      "user": {
+        "id": 256452,
+        "username": "royalwhale",
+        "name": "Parv",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/royalwhale/{size}/149402_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 289331,
+      "likes_received": 3,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 289331,
+        "username": "Driven4Success",
+        "name": "Dusty",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/driven4success/{size}/181652_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 364658,
+      "likes_received": 3,
+      "likes_given": 2,
+      "topic_count": 3,
+      "post_count": 4,
+      "topics_entered": 9,
+      "posts_read": 39,
+      "days_visited": 6,
+      "user": {
+        "id": 364658,
+        "username": "zak",
+        "name": "Zak Amchat",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/zak/{size}/234856_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 364751,
+      "likes_received": 3,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 1,
+      "topics_entered": 68,
+      "posts_read": 397,
+      "days_visited": 5,
+      "user": {
+        "id": 364751,
+        "username": "Lego_My_Eggo",
+        "name": "",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/lego_my_eggo/{size}/134324_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 368654,
+      "likes_received": 3,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 6,
+      "topics_entered": 11,
+      "posts_read": 22,
+      "days_visited": 4,
+      "user": {
+        "id": 368654,
+        "username": "rio_sanap",
+        "name": "",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/rio_sanap/{size}/236783_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 373155,
+      "likes_received": 3,
+      "likes_given": 1,
+      "topic_count": 0,
+      "post_count": 3,
+      "topics_entered": 14,
+      "posts_read": 48,
+      "days_visited": 1,
+      "user": {
+        "id": 373155,
+        "username": "blessedaim",
+        "name": "Blessedaim",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/blessedaim/{size}/237889_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 15070,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 15070,
+        "username": "TheMightyPenguin",
+        "name": "Victor Tortolero",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/themightypenguin/{size}/161925_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 46145,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 46145,
+        "username": "brook1trout",
+        "name": "Brook1trout",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/brook1trout/{size}/163013_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 61887,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 61887,
+        "username": "RandellDawson",
+        "name": "Randell Dawson",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/randelldawson/{size}/56290_2.png",
+        "title": "Leader",
+        "flair_name": null,
+        "moderator": true,
+        "trust_level": 4
+      }
+    },
+    {
+      "id": 97903,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 97903,
+        "username": "Michuello",
+        "name": "Michał",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/m/e9a140/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 0
+      }
+    },
+    {
+      "id": 111753,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 111753,
+        "username": "solocode",
+        "name": "",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/s/c57346/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 0
+      }
+    },
+    {
+      "id": 111857,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 111857,
+        "username": "buffjeremy",
+        "name": "Jeremy Schantz",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/buffjeremy/{size}/161650_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 175204,
+      "likes_received": 2,
+      "likes_given": 1,
+      "topic_count": 0,
+      "post_count": 1,
+      "topics_entered": 2,
+      "posts_read": 4,
+      "days_visited": 1,
+      "user": {
+        "id": 175204,
+        "username": "ConnerOw1115",
+        "name": "LeviathanProgramming",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/connerow1115/{size}/147935_2.png",
+        "title": "",
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 184989,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 2,
+      "topics_entered": 7,
+      "posts_read": 90,
+      "days_visited": 5,
+      "user": {
+        "id": 184989,
+        "username": "ethanvernon",
+        "name": "Ethan Vernon",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/ethanvernon/{size}/110429_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 243197,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 243197,
+        "username": "Temzarone",
+        "name": "Temo",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/t/13edae/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    },
+    {
+      "id": 281401,
+      "likes_received": 2,
+      "likes_given": 2,
+      "topic_count": 2,
+      "post_count": 2,
+      "topics_entered": 8,
+      "posts_read": 23,
+      "days_visited": 3,
+      "user": {
+        "id": 281401,
+        "username": "abdulrahman.mhd.anas",
+        "name": "Abdulrahman Mhd Anas",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/abdulrahman.mhd.anas/{size}/135050_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 2
+      }
+    },
+    {
+      "id": 329972,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 0,
+      "topics_entered": 0,
+      "posts_read": 0,
+      "days_visited": 0,
+      "user": {
+        "id": 329972,
+        "username": "AdairDaniels",
+        "name": "Adair Daniels",
+        "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/a/a88e4f/{size}.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 0
+      }
+    },
+    {
+      "id": 339895,
+      "likes_received": 2,
+      "likes_given": 0,
+      "topic_count": 0,
+      "post_count": 2,
+      "topics_entered": 22,
+      "posts_read": 38,
+      "days_visited": 3,
+      "user": {
+        "id": 339895,
+        "username": "ShivangamSoni",
+        "name": "SHIVANGAM SONI",
+        "avatar_template": "/user_avatar/forum.freecodecamp.org/shivangamsoni/{size}/215377_2.png",
+        "title": null,
+        "flair_name": null,
+        "trust_level": 1
+      }
+    }
+  ],
+  "meta": {
+    "last_updated_at": "2021-12-09T16:29:53.000Z",
+    "total_rows_directory_items": 243662,
+    "load_more_directory_items": "/directory_items.json?order=likes_received&page=1&period=weekly"
+  }
+}
