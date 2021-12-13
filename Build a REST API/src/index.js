@@ -6,13 +6,13 @@
  * sequelize, sequelize-cli, validator 
  */
 
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
-let express = require(global + 'express');
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+let express = require(globalLoc + 'express');
 let app = express();
 let personRoute = require('./routes/person');
 let customerRoute = require('./routes/customer');
 let path = require('path');
-let bodyParser = require(global + 'body-parser');
+let bodyParser = require(globalLoc + 'body-parser');
 
 app.use(bodyParser.json());
 
