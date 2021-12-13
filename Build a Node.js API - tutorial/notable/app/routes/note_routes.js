@@ -1,5 +1,5 @@
-const { global } = require("../../globals");
-var ObjectId = require(global + 'mongodb').ObjectId;
+const { globalLoc } = require("../../globals");
+var ObjectId = require(globalLoc + 'mongodb').ObjectId;
 
 module.exports = function(app, db){
   app.get('/notes/:id', (req, res) => {
