@@ -1,12 +1,12 @@
 
-const global = require('../globals');
+const globalLoc = require('../globals');
 let models = require('../models');
-let bcrypt = require(global + 'bcrypt'); 
-const passport = require(global + 'passport');
+let bcrypt = require(globalLoc + 'bcrypt'); 
+const passport = require(globalLoc + 'passport');
 const myPassport = require('../passport_setup')(passport);
-let flash = require(global + 'connect-flash');
+let flash = require(globalLoc + 'connect-flash');
 
-const { isEmpty } = require(global + 'lodash');
+const { isEmpty } = require(globalLoc + 'lodash');
 const { validateUser } = require('../validators/signup');
 
 exports.show_login = function(req, res, next) {
