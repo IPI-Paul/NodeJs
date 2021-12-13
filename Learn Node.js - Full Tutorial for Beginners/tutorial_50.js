@@ -1,6 +1,6 @@
-const global = require('./globals').global;
-const express = require(global + 'express');
-const bodyParser = require(global + 'body-parser');
+const globalLoc = require('./globals').globalLoc;
+const express = require(globalLoc + 'express');
+const bodyParser = require(globalLoc + 'body-parser');
 const app = express();
 
 // Midleware
