@@ -1,5 +1,5 @@
-const global = require('../globals');
-let createError = require(global + 'http-errors');
+const globalLoc = require('../globals');
+let createError = require(globalLoc + 'http-errors');
 
 exports.isLoggedIn = function(req, res, next) {
 	if (req.user) 
