@@ -1,6 +1,6 @@
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
 let CustomerModel = require('../models/customer.model');
-let express = require(global + 'express');
+let express = require(globalLoc + 'express');
 let router = express.Router();
 
 // Create a new customer
