@@ -1,8 +1,8 @@
 
-const global = require('../globals');
+const globalLoc = require('../globals');
 const models = require('../models');
 
-const { isEmpty } = require(global + 'lodash');
+const { isEmpty } = require(globalLoc + 'lodash');
 const { validateLead } = require('../validators/lead');
 const { validateEditLead } = require('../validators/edit_lead');
 
