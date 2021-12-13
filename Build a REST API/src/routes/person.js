@@ -1,5 +1,5 @@
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
-let express = require(global + 'express');
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+let express = require(globalLoc + 'express');
 let router = express.Router();
 
 // QuerString => query property on the request object
