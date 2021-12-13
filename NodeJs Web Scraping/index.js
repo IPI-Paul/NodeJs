@@ -1,8 +1,8 @@
 // Web scraping in Node
-const { global } = require('./globals');
-const rp = require(global + 'request-promise');
-const cheerio = require(global + 'cheerio');
-const Table = require(global + 'cli-table');
+const { globalLoc } = require('./globals');
+const rp = require(globalLoc + 'request-promise');
+const cheerio = require(globalLoc + 'cheerio');
+const Table = require(globalLoc + 'cli-table');
 
 let users = [];
 let table = new Table({
