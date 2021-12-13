@@ -1,7 +1,7 @@
 
-const global = require('../globals');
+const globalLoc = require('../globals');
 let models = require('../models');
-let validator = require(global + 'validator');
+let validator = require(globalLoc + 'validator');
 
 
 const validateCreateUserFields = function(errors, req) {
