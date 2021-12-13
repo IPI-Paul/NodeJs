@@ -1,5 +1,5 @@
-const global = require('../globals');
-var express = require(global + 'express');
+const globalLoc = require('../globals');
+var express = require(globalLoc + 'express');
 var router = express.Router();
 
 let landing = require('../controllers/landing');
