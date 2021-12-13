@@ -1,6 +1,6 @@
 const globals = require('./globals');
-const global = globals.global;
-const Joi = require(global + 'joi');
+const globalLoc = globals.globalLoc;
+const Joi = require(globalLoc + 'joi');
 
 const arrayString = ['banana', 'bacon', 'cheese'];
 const arrayObjects = [{example: 'example1'}, {example: 'example2'}, {example: 'example3'}];
