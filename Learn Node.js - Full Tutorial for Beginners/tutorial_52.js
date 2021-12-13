@@ -1,7 +1,7 @@
 const globals = require('./globals');
-const global = globals.global;
+const globalLoc = globals.globalLoc;
 const fileName = globals.fileName(__filename);
-const express = require(global + 'express');
+const express = require(globalLoc + 'express');
 const path = require('path');
 const app = express();
 
