@@ -1,10 +1,10 @@
 /* Global and Dev Dependancies
   body-parser, express, mongodb, nodemon
 */
-const { global } = require('./globals');
-const express = require(global + 'express');
-const MongoClient = require(global + 'mongodb').MongoClient;
-const bodyParser = require(global + 'body-parser');
+const { globalLoc } = require('./globals');
+const express = require(globalLoc + 'express');
+const MongoClient = require(globalLoc + 'mongodb').MongoClient;
+const bodyParser = require(globalLoc + 'body-parser');
 const db = require('./config/db');
 
 // Framework
