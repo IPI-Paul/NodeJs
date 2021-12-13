@@ -1,10 +1,10 @@
 const globals = require('./globals');
-const global = globals.global;
+const globalLoc = globals.globalLoc;
 const fileName = globals.fileName(__filename) + '.html';
-const express = require(global + 'express');
+const express = require(globalLoc + 'express');
 const path = require('path');
-const Joi = require(global + 'joi');
-const bodyParser = require(global + 'body-parser');
+const Joi = require(globalLoc + 'joi');
+const bodyParser = require(globalLoc + 'body-parser');
 const app = express();
 
 // Midleware
