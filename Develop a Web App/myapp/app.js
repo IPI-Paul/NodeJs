@@ -6,14 +6,14 @@
  * sequelize, sequelize-cli, validator 
  */
 
-const global = require('./globals');
-var createError = require(global + 'http-errors');
-var express = require(global + 'express');
+const globalLoc = require('./globals');
+var createError = require(globalLoc + 'http-errors');
+var express = require(globalLoc + 'express');
 var path = require('path');
-var cookieParser = require(global + 'cookie-parser');
-var logger = require(global + 'morgan');
-let passport = require(global + 'passport');
-let session = require(global + 'express-session');
+var cookieParser = require(globalLoc + 'cookie-parser');
+var logger = require(globalLoc + 'morgan');
+let passport = require(globalLoc + 'passport');
+let session = require(globalLoc + 'express-session');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
