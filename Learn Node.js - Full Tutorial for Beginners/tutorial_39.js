@@ -1,5 +1,5 @@
-const global = require('./globals').global;
-const express = require(global + 'express');
+const globalLoc = require('./globals').globalLoc;
+const express = require(globalLoc + 'express');
 const app = express();
 
 app.get('/', (req, res) => {
