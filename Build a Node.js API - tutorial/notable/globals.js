@@ -1,6 +1,6 @@
 const  fs = require('fs');
 const path = require('path');
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
 
 let public = __dirname + '\\public\\';
 let gz = public + 'gz\\';
@@ -23,8 +23,13 @@ let dirFile = function(dir, idx) {
 		return path.join(dir, file);
 }
 
+let fileExt = function(filePath) {
+	return path.parse(__filename).ext
+}
+
 let fileName = function(filePath) {
-	return filePath.replace(__dirname + '\\', '').replace('.js', '');
+	//return filePath.replace(__dirname + '\\', '').replace('.js', '');
+	return path.parse(__filename).name
 }
 
 let filePath = function(dir, filename, fileext) {
@@ -33,9 +38,10 @@ let filePath = function(dir, filename, fileext) {
 
 module.exports = {
 	dirFile: dirFile,
+	fileExt: fileExt,
 	fileName: fileName,
 	filePath: filePath,
-	global: global,
+	globalLoc: globalLoc,
 	gz: gz,
 	html: html,
 	json: json,
