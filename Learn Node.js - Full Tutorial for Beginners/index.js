@@ -1,6 +1,6 @@
-const global = require('./globals').global;
+const globalLoc = require('./globals').globalLoc;
 const fJson = './public/json/';
-const express = require(global + 'express');
+const express = require(globalLoc + 'express');
 const fs = require('fs');
 const tutorials = JSON.parse(fs.readFileSync(fJson + 'index.json', 'utf-8'));
 const port = 3000;
