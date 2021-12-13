@@ -1,3 +1,3 @@
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
 
-module.exports = global;
+module.exports = globalLoc;
