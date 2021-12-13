@@ -1,6 +1,6 @@
-const global = require('./globals');
-let LocalStrategy = require(global + 'passport-local').Strategy;
-let bcrypt = require(global + 'bcrypt');
+const globalLoc = require('./globals');
+let LocalStrategy = require(globalLoc + 'passport-local').Strategy;
+let bcrypt = require(globalLoc + 'bcrypt');
 let models = require('./models');
 
 const validPassword = function(user, password) {
