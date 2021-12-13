@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-const global = require('../globals');
+const globalLoc = require('../globals');
 var app = require('../app');
-var debug = require(global + 'debug')('myapp:server');
+var debug = require(globalLoc + 'debug')('myapp:server');
 var http = require('http');
 let models = require('../models');
 let user = require('../controllers/user');
