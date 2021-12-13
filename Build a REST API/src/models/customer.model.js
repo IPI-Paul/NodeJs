@@ -1,5 +1,5 @@
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
-let mongoose = require(global + 'mongoose');
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+let mongoose = require(globalLoc + 'mongoose');
 
 const server = 'localhost:27017';
 const database = 'YourDatabaseName';
