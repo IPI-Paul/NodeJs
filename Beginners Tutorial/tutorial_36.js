@@ -1,5 +1,5 @@
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
-const express = require(global + 'express');
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+const express = require(globalLoc + 'express');
 const fs = require('fs');
 
 const fJson = './sources/json/';
