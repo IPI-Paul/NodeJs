@@ -1,6 +1,6 @@
-const global = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
+const globalLoc = require('child_process').execSync('npm root -g').toString().trim().replace(/\\/g, '\\\\') + '\\\\';
 const fJson = './sources/json/';
-const express = require(global + 'express');
+const express = require(globalLoc + 'express');
 const fs = require('fs');
 const students = JSON.parse(fs.readFileSync(fJson + 'tutorial_38.json', 'utf-8'));
 
