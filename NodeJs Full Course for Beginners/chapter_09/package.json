@@ -1,0 +1,15 @@
+{
+  "name": "chapter_09",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev-01": "nodemon server_01",
+    "start-01": "node server_01",
+    "dev-02": "nodemon server_02",
+    "start-02": "node server_02"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
