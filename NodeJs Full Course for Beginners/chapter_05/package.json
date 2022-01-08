@@ -1,0 +1,25 @@
+{
+  "name": "chapter_05",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev-01": "nodemon server_01",
+    "start-01": "node server_01",
+    "dev-02": "nodemon server_02",
+    "start-02": "node server_02",
+    "dev-03": "nodemon server_03",
+    "start-03": "node server_03",
+    "dev-04": "nodemon server_04",
+    "start-04": "node server_04",
+    "dev-05": "nodemon server_05",
+    "start-05": "node server_05",
+    "dev-06": "nodemon server_06",
+    "start-06": "node server_06",
+    "dev-07": "nodemon server_07",
+    "start-07": "node server_07"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
