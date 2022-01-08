@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>
+			Learn Node.js - Full Tutorial for Beginners by Pedro Mercado
+		</title>
+		<style>
+			body {
+				background-color: skyblue;
+			}
+			th {
+				text-align: left;
+				padding-left: 5px;
+			}
+			td {
+				height: 100%;
+			}
+			a {
+				text-decoration: underline;
+				cursor: pointer;
+				color: blue;
+			}
+			.visited {
+				color: brown;
+			}
+			.body {
+				max-height: 800;
+				width: 65%;
+				overflow: scroll;
+			}
+			.chapter {
+				font-weight: bold;
+				width: 80;
+			}
+			.main {
+				display: flex;
+			}
+			iframe {
+				height: 800;
+				width: 35%;
+				background-color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Tutorial List
+		</h1>
+		<h3>
+			Watch Source Video: <a href="https://m.youtube.com/watch?v=RLtyhwFtXQA" target="_blank">https://m.youtube.com/watch?v=RLtyhwFtXQA</a>
+		</h3>
+		<div class="main">
+			<div class="body">
+				<table>
+					<tr>
+						<th> </th>
+						<th>Tutorial Name</th>
+						<th>Files Included</th>
+						<th>Global Modules Included</th>
+					</tr>
+					<tr>
+						<th colspan="2"> </th>
+						<th colspan="2">Description</th>
+					</tr>
+					<% for(i=0; i < Object.keys(allData).length; i++) { %>
+						<tr style="background-color: yellowgreen;">
+							<td class="chapter"><%= allData[i].chapter.name.replace('_', ' ').replace('c', 'C') %></td>
+							<td><%= allData[i].name %></td>
+							<td>
+								<% for(j=0; j < allData[i].files.length; j++) { %>
+									<% if (allData[i].files[j] != '.env') { %>
+										<a onclick="className='visited'; document.getElementById('jsDisplay').src='<%= allData[i].chapter.name %>' + '/' + '<%= allData[i].locations[j] %>' + '/' + '<%= allData[i].files[j] %>.js'; setTimeout(function() { var ifr = document.getElementById('jsDisplay'); var doc = (ifr.contentWindow	|| ifr.contentDocument); if (doc.document)doc = doc.document; doc.body.style.tabSize='2'; }, 50);"><%= allData[i].files[j] %></a>
+									<% } else { %>
+										<b><%= allData[i].files[j] %></b>
+									<% } %>
+								<% } %>
+							</td>
+							<td><%= allData[i].chapter.packages.join(', ') %></td>
+						</tr>
+						<tr>
+							<td colspan="2"><%= allData[i].chapter.description %></td>
+							<td colspan="2"><%= allData[i].description %></td>
+						</tr>
+					<% } %>
+				</table>	
+			</div>
+			<iframe id="jsDisplay"></textarea>
+		</div>
+	</body>
+</html>
