@@ -20,3 +20,7 @@ https://m.youtube.com/watch?v=RLtyhwFtXQA
 Build a Node.js API - tutorial
 
 https://m.youtube.com/watch?v=fsCjFHuMXj0
+
+Node.Js Full Course for Beginners
+
+https://m.youtube.com/watch?v=f2EqECiTBL8
