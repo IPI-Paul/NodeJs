@@ -24,11 +24,11 @@ let dirFile = function(dir, idx) {
 }
 
 let fileExt = function(filePath) {
-	return path.parse(__filename).ext
+	return path.parse(filePath).ext
 }
 let fileName = function(filePath) {
 	//return filePath.replace(__dirname + '\\', '').replace('.js', '');
-	return path.parse(__filename).name
+	return path.parse(filePath).name
 }
 
 let filePath = function(dir, filename, fileext) {
